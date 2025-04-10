@@ -8,7 +8,7 @@ import matplotlib as mpl
 import numpy as np
 
 width = height = 800
-k = 12 
+k = 8 
 fig = plt.figure()
 
 response = requests.get(f'https://picsum.photos/{width}/{height}/?random')
